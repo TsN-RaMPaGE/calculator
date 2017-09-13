@@ -5,7 +5,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-rl.question('What operation would you like to perform? \n1) Add\n2) Subtract \n', (action) => {
+rl.question('What operation would you like to perform? \n1) Add\n2) Subtract\n', (action) => {
   rl.question('Enter numbers separated by a space\n', (numberString) => {
 
     let numbers = numberString.split(' ');
